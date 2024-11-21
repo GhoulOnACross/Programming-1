@@ -1,22 +1,22 @@
 //Assignment 2a:
-
+box1 = document.getElementById("XOXO")
 {
   for (let i = 0; i < 10; i++) {
-    if (i === 4) document.write("Q");
-    else if (i % 2 === 0) document.write("O");
-    else document.write("X");
+    if (i === 4) box1.innerHTML += "Q";
+    else if (i % 2 === 0) box1.innerHTML += "O";
+    else box1.innerHTML += "X";
   }
 }
 
 document.writeln("<br></br>");
 
 //Assignment 2b:
-
+box2 = document.getElementById("randomO")
 {
   for (let i = 0; i < 20; i++) {
     let randomSpace = Math.floor(Math.random() * 5) + 1;
     let spaces = "&nbsp;".repeat(randomSpace);
-    document.write("O" + spaces);
+    box2.innerHTML += ("O" + spaces);
   }
 }
 

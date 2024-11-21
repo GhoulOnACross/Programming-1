@@ -1,0 +1,30 @@
+body {
+    background-size: 100%;
+    color: white;
+}
+.box1 {
+    background-color: rgb(159, 159, 159);
+    border: 2px solid rgb(94, 94, 94);
+    width: 200px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 200px;
+    left: 1080px;
+}
+
+.box2 {
+    background-color: rgb(159, 159, 159);
+    border: 2px solid rgb(94, 94, 94);
+    width: 520px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 300px;
+    left: 920px;
+}
+
